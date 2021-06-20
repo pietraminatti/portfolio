@@ -79,9 +79,9 @@ body{
 }
 
 .portfolio {
-  max-width: 400px;
+  max-width: 300px;
   box-sizing: border-box;
-  height: 500px;
+  height: 400px;
   float: left;
   margin-left: 5%;
 }
@@ -153,7 +153,11 @@ body{
     font-weight: bolder;
   }
 }
-
+@media (max-width: 1765px){
+  .projetos{
+    width: 100%;
+  }
+}
 
 .img-maior{
   width: 300px;
@@ -192,7 +196,7 @@ body{
 
 .projetos{
   position: relative;
-  width: 100%;
+  width: 80%;
   margin-bottom: 50px;
 
 }
