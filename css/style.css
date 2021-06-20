@@ -79,16 +79,18 @@ body{
 }
 
 .portfolio {
-  max-width: 886px;
+  max-width: 400px;
   box-sizing: border-box;
   height: 500px;
+  float: left;
+  margin-left: 5%;
 }
 
 
 .portfolio li {
   display: grid;
   grid-template-columns: auto 1fr;
-  text-align: left;
+  text-align: center;
   gap: 1rem;
   color: #606060
 }
@@ -151,13 +153,11 @@ body{
     font-weight: bolder;
   }
 }
-div{
-  height:1000px;
-}
 
 
 .img-maior{
-  max-width: 100%;
+  width: 300px;
+  height: 300px;
 }
 
 .bn33 {
@@ -174,17 +174,25 @@ div{
   -webkit-transition: box-shadow 0.25s;
   transition: box-shadow 0.25s;
   color: white;
-  margin-top: 55px;
+  margin-top: 28px;
   
 }
 
 .fonte{
   font-family:Arial, Helvetica, sans-serif;
   color:plum;
-  text-align: left;
+  text-align: center;
   height:20px;
+  
 }
 
 .margem-desweb{
   padding: 3rem;
+}
+
+.projetos{
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+
 }
